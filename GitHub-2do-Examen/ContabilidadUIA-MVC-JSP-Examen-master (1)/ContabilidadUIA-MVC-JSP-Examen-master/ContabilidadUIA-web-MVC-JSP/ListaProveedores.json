@@ -1,0 +1,150 @@
+{
+    "name": "Lista de Proveedores",
+    "id": 0,
+    "items": [{
+            "type": "proveedor",
+            "name": "Juan",
+            "id": 1,
+            "items": [{
+                    "type": "compra",
+                    "name": "compra-A",
+                    "id": 10000,
+                    "fecha":  "2019-06-14",
+                    "items": [{
+                            "type": "cuenta",
+                            "name": "cuenta-1",
+                            "id": 10001,
+                            "fecha": "2019-06-14",
+                            "items": [{
+                                    "type": "requisicion",
+                                    "name": "Req-Cheques",
+                                    "id": 1000,
+                                    "fecha": "2019-06-14",
+                                    "items": [{
+                                            "type": "cheque",
+                                            "name": "ChequesX",
+                                            "id": 1,
+                                            "saldo": 1000.0,
+                                            "estado": "devuelto"
+                                        }
+                                    ]
+                                }, {
+                                    "type": "requisicion",
+                                    "name": "Req-Credito",
+                                    "id": 1001,
+                                    "fecha": "2019-06-14",
+                                    "items": [{
+                                            "type": "cheque",
+                                            "name": "TarjetaY",
+                                            "id": 4,
+                                            "saldo": 1000.0,
+                                            "estado": "sin registro"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }, {
+                            "type": "cuenta",
+                            "name": "Cuenta-2",
+                            "id": 1002,
+                            "fecha": "2019-06-14",
+                            "items": [{
+                                    "type": "requisicion",
+                                    "name": "Req-Cheques",
+                                    "id": 1000,
+                                    "fecha": "2019-06-14",
+                                    "items": [{
+                                            "type": "cheque",
+                                            "name": "ChequesX",
+                                            "id": 1,
+                                            "saldo": 1000.0,
+                                            "estado": "devuelto"
+                                        }
+                                    ]
+                                }, {
+                                    "type": "requisicion",
+                                    "name": "Req-Credito",
+                                    "id": 1001,
+                                    "fecha": "2019-06-14",
+                                    "items": [{
+                                            "type": "cheque",
+                                            "name": "TarjetaY",
+                                            "id": 4,
+                                            "saldo": 1000.0,
+                                            "estado": "sin registro"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        }, {
+            "type": "proveedor",
+            "name": "Juan",
+            "id": 2,
+            "items": [{
+                    "type": "compra",
+                    "name": "compra-C",
+                    "id": 2000,
+                    "fecha": "2019-06-14",
+                    "items": [{
+                            "type": "cuenta",
+                            "name": "cuenta-10",
+                            "id": 20001,
+                            "fecha": "2019-06-14",
+                            "items": [{
+                                    "type": "requisicion",
+                                    "name": "Req-Cheques",
+                                    "id": 1000,
+                                    "fecha": "2019-06-14",
+                                    "items": [{
+                                            "type": "cheque",
+                                            "name": "ChequesZ",
+                                            "saldo": 1000.0,
+                                            "id": 1,
+                                            "estado": "sin registro"
+                                        }, {
+                                            "type": "cheque",
+                                            "name": "ChequesW",
+                                            "saldo": 1000.0,
+                                            "id": 2,
+                                            "estado": "sin registro"
+                                        }, {
+                                            "type": "cheque",
+                                            "name": "ChequesV",
+                                            "saldo": 1000.0,
+                                            "id": 3,
+                                            "estado": "sin registro"
+                                        }
+                                    ]
+                                }, {
+                                    "type": "requisicion",
+                                    "name": "Req-Credito",
+                                    "id": 1001,
+                                    "fecha": "2019-06-14",
+                                    "items": [{
+                                            "type": "cheque",
+                                            "name": "Tarjeta",
+                                            "id": 4,
+                                            "saldo": 1000.0,
+                                            "estado": "sin registro"
+                                        }, {
+                                            "type": "cheque",
+                                            "name": "Hipoteca",
+                                            "id": 2,
+                                            "saldo": 1000.0,
+                                            "estado": "sin registro"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
